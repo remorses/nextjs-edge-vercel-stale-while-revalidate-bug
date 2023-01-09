@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const config = { runtime: 'edge-middleware' }
+export const config = { runtime: 'experimental-edge' }
 
 export function getServerSideProps() {
     return {
