@@ -15,3 +15,5 @@ curl -ihttps://nextjs-edge-vercel-stale-while-revalidate-bug.vercel.app/api/hell
 # x-vercel-cache: STALE
 # it will always return stale cache without revalidating
 ```
+
+
